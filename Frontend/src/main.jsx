@@ -9,9 +9,9 @@ import FormVersion4 from './FormVersion4.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <Form /> */}
-     {/* <FormVersion2/> */}
-     {/* <FormVersion3/> */}
+    <Form /> 
+    <FormVersion2/> 
+     <FormVersion3/>
      <FormVersion4/>
-  </StrictMode>,
+  </StrictMode>
 )
