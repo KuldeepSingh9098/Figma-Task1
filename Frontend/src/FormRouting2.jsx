@@ -141,7 +141,7 @@ const handleDeleteButton = (i)=>{
             <div>
   
             <button type="submit" onClick={handleSaveButton}>Save</button>
-            <Link to="/user"><h1>Savetwo</h1></Link>
+         
          
             </div>
         
