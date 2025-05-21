@@ -1,7 +1,8 @@
 import React, {  useEffect, useState } from "react";
-
-const FormVersion3 = () => {
-
+import { Link, Route, Routes, useNavigate, } from "react-router-dom";
+import FormVersion4Copy2 from "./FormVersion4Copy2";
+const FormRouting2 = () => {
+const navigate = useNavigate()
 const[data, setData] = useState({
          firstname: " ",
          lastname: " ",
@@ -44,8 +45,9 @@ const handleSaveButton = (e)=>{
                   setArrayData(upDatedData)
                localStorage.setItem("data", JSON.stringify(upDatedData))
                sessionStorage.setItem("data", JSON.stringify(upDatedData))
+              
             e.preventDefault()
-    
+            navigate("/userlist")
                 
                
             
@@ -88,7 +90,8 @@ const handleDeleteButton = (i)=>{
 
 
   return (
-    <>
+    <> 
+  
      <form>
           <label>FirstName</label> 
           <input type="text" name="firstname" placeholder="Enter your firstname" onChange={handleFormData} value={data.firstname}/>
@@ -135,8 +138,17 @@ const handleDeleteButton = (i)=>{
           <input type="textarea" placeholder="Enter your firstname" style={{width: "200px", height: "100px"}} onChange={handleFormData} name="description" value={data.description}/>
            <br/>
            <br/>
+            <div>
+  
             <button type="submit" onClick={handleSaveButton}>Save</button>
+            <Link to="/user"><h1>Savetwo</h1></Link>
+         
+            </div>
+        
+          
          </form>
+         
+           
             <div>
             <center>
            
@@ -180,9 +192,9 @@ const handleDeleteButton = (i)=>{
                 </table>
             </center>
          </div>
-        
+    
     </>
   )
 }
 
-export default FormVersion3;
+export default FormRouting2;
