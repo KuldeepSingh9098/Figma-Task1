@@ -11,16 +11,17 @@ import Navigation from './Navigation.jsx'
 import FormRouting from './FormRouting.jsx'
 import LifeCycle from './LifeCycle.jsx'
 import Parent from './Parent.jsx'
+import SpaceShip from './Tasks/SpaceShip.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 {/*     
       <FormVersion3/>
      <FormVersion4/> */}
-     <App/>
+     {/* <App/> */}
      {/* <LifeCycle/> */}
    {/* <Parent/> */}
-
+   <SpaceShip/>
   </StrictMode>
   // <BrowserRouter>
      
