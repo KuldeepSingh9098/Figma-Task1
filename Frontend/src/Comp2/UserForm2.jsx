@@ -48,18 +48,21 @@ const UserForm2 = () => {
   };
 
   const handleSaveButton = (e) => {
-    const upDatedData = [...arraydata];
+    // const upDatedData = [...arraydata];
+    e.preventDefault();
+
+    // console.log("upDatedData", upDatedData);
+    // console.log("arraydata", arraydata);
 
     if (editindex == null) {
-      upDatedData.push(data);
-    } else {
-      upDatedData[editindex - 1] = data;
+      arraydata.push(data);
+    } else { 
+      arraydata[editindex - 1] = data;
     }
-    setArrayData(upDatedData);
-    localStorage.setItem("data", JSON.stringify(upDatedData));
-    sessionStorage.setItem("data", JSON.stringify(upDatedData));
+    setArrayData(arraydata);
+    localStorage.setItem("data", JSON.stringify(arraydata));
+    sessionStorage.setItem("data", JSON.stringify(arraydata));
 
-    e.preventDefault();
     navigate("/userlist2");
   };
 
