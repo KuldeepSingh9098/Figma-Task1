@@ -11,16 +11,22 @@ import Navigation from './Navigation.jsx'
 import FormRouting from './FormRouting.jsx'
 import LifeCycle from './LifeCycle.jsx'
 import Parent from './Parent.jsx'
+import Formwik from './Formwik/Formwik.jsx'
+import Practice from './Practice.jsx'
+import SpaceShip from './TestTask/SpaceShip.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-{/*     
-      <FormVersion3/>
-     <FormVersion4/> */}
-     <App/>
+    
+      {/* <FormVersion3/> */}
+     {/* <FormVersion4/> */}
+     {/* <App/> */}
+    {/* <Practice/> */}
+     {/* <Formwik/> */}
      {/* <LifeCycle/> */}
    {/* <Parent/> */}
-
+         <SpaceShip/>
+         {/* <Practice/> */}
   </StrictMode>
   // <BrowserRouter>
      

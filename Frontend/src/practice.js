@@ -49,27 +49,40 @@
 
 // console.log(obj[1])
 
-class Parent{
-      constructor(){
-            this.name = "kuldeep"
-            this.age =  25
-            this.work = "IT Sector"
-      }
+// class Parent{
+//       constructor(){
+//             this.name = "kuldeep"
+//             this.age =  25
+//             this.work = "IT Sector"
+//       }
       
-      handleReceived(city){
-             console.log(`i am working on ${this.work} and i am living in ${city}`)
-      }
+//       handleReceived(city){
+//              console.log(`i am working on ${this.work} and i am living in ${city}`)
+//       }
 
 
 
-}
+// }
 
-let obj = new Parent();
-console.log(obj.handleReceived("rewa"))
+// let obj = new Parent();
+// console.log(obj.handleReceived("rewa"))
 
+let array  = [1,2,3,44,5,6]
+console.log(array)
+array.push(7)
+console.log(array)
 
+let update = [...array]
+console.log(update)
+update.push(7)
+console.log(update)
+console.log(array)
 
-
+// let update2 = array;
+// console.log(update2)
+// update2.push(7)
+// console.log(update2)
+// console.log(array)
 
 
 

@@ -16,8 +16,8 @@ function UserList2() {
   }, []);
 
   const handleEditButton = (i) => {
-           var id = i
-           navigate(`/${id}`)
+         
+           navigate(`/${i}`)
    
   };
 
