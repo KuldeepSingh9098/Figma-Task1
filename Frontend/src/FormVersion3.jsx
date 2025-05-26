@@ -32,19 +32,21 @@ const handleFormData = (e)=>{
 }
 
 const handleSaveButton = (e)=>{
+  updateArray=[...arraydata]
 
-            const upDatedData = [...arraydata]
-          
+
+           e.preventDefault()
+                
                 if(editindex == null){
-                      upDatedData.push(data)
+                      arraydata.push(data)
                  
                 }else{ 
-               upDatedData[editindex-1] = data
+                arraydata[editindex-1] = data
              }
-                  setArrayData(upDatedData)
-               localStorage.setItem("data", JSON.stringify(upDatedData))
-               sessionStorage.setItem("data", JSON.stringify(upDatedData))
-            e.preventDefault()
+                  setArrayData(arraydata)
+               localStorage.setItem("data", JSON.stringify(arraydata))
+               sessionStorage.setItem("data", JSON.stringify(arraydata))
+           
     
                 
                
