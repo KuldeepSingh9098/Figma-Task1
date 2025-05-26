@@ -1,0 +1,494 @@
+body {
+  background-color: #051544;
+
+}
+
+#maindiv {
+  width: 944px;
+  height: 848px;
+  border: 1px solid #7bf762;
+  border-radius: 8px;
+  display: flex;
+  gap: 140px;
+  position: absolute;
+  top: 32px;
+  left: 248px;
+}
+
+#PagePart1 {
+  width: 50%;
+ 
+}
+
+#PagePart2 {
+  width: 50%;
+}
+
+#mainheading {
+  width: 944px;
+  height: 27px;
+  /* position: absolute;
+  top: 72px;
+  left: 248px; */
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 20%;
+  text-align: center;
+  color: #7bf762;
+}
+
+#heading1 {
+  width: 141px;
+  height: 24px;
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #7bf762;
+  /* position: absolute;
+  top: 144px;
+  left: 280px; */
+
+}
+
+#SelectColor {
+  display: flex;
+  gap: 30px;
+}
+
+#div1 {
+  width: 160px;
+  height: 112px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#activediv1 {
+  width: 160px;
+  height: 112px;
+  border: 1px solid #7bf762;
+ box-shadow: 0px 0px 10px 0px #7BF762; 
+  cursor: pointer;
+  border-radius: 8px;
+}
+#div12 {
+  width: 160px;
+  height: 112px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#activediv12 {
+  width: 160px;
+  height: 112px;
+  border: 1px solid #7bf762;
+ box-shadow: 0px 0px 10px 0px #7BF762; 
+  cursor: pointer;
+  border-radius: 8px;
+}
+#div13 {
+  width: 160px;
+  height: 112px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#activediv13 {
+  width: 160px;
+  height: 112px;
+  border: 1px solid #7bf762;
+ box-shadow: 0px 0px 10px 0px #7BF762; 
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.Sdiv1 {
+  width: 64px;
+  height: 32px;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.Sdiv2 {
+  width: 64px;
+  height: 32px;
+  border-radius: 8px;
+  background: #ff7a00;
+}
+
+.Sdiv3 {
+  width: 64px;
+  height: 32px;
+  border-radius: 8px;
+  background: #6be4ff;
+}
+
+.Stext1 {
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: 10%;
+  text-align: center;
+  vertical-align: bottom;
+  color: #5a8f4f;
+  width: 25px;
+  height: 10px;
+}
+.Stext11 {
+  width: 38px;
+  height: 10px;
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: 10%;
+  text-align: center;
+  vertical-align: bottom;
+  color: #5a8f4f;
+}
+
+/* here we start second  line div component4*/
+
+#heading2 {
+  width: 141px;
+  height: 24px;
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #7bf762;
+}
+
+#SelectPower {
+  display: flex;
+  gap: 30px;
+}
+
+#div2 {
+  width: 160px;
+  height: 64px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#activediv2 {
+  width: 160px;
+  height: 64px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+   box-shadow: 0px 0px 10px 0px #7BF762; 
+}
+#div22 {
+  width: 160px;
+  height: 64px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#activediv22 {
+  width: 160px;
+  height: 64px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+   box-shadow: 0px 0px 10px 0px #7BF762; 
+}
+#div23 {
+  width: 160px;
+  height: 64px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#activediv23 {
+  width: 160px;
+  height: 64px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+   box-shadow: 0px 0px 10px 0px #7BF762; 
+}
+
+.Stext2 {
+  width: 58px;
+  height: 10px;
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: 10%;
+  text-align: center;
+  vertical-align: middle;
+  color: #5a8f4f;
+}
+
+.Stext21 {
+  width: 25px;
+  height: 10px;
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  letter-spacing: 10%;
+  text-align: center;
+  vertical-align: middle;
+  color: #5a8f4f;
+}
+
+/* here we start third line div component7*/
+
+#heading3 {
+  width: 119px;
+  height: 24px;
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #7bf762;
+}
+
+#Wrapdrive {
+  display: flex;
+  gap: 30px;
+}
+
+#div3 {
+  width: 160px;
+  height: 64px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#activediv3 {
+  width: 160px;
+  height: 64px;
+  border: 1px solid #7bf762;
+  box-shadow: 0px 0px 10px 0px #7BF762; 
+  cursor: pointer;
+  border-radius: 8px;
+}
+#div32 {
+  width: 160px;
+  height: 64px;
+  border: 1px solid #7bf762;
+
+  cursor: pointer;
+  border-radius: 8px;
+}
+#activediv32 {
+  width: 160px;
+  height: 64px;
+  border: 1px solid #7bf762;
+  box-shadow: 0px 0px 10px 0px #7BF762; 
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.Stext3 {
+  width: 19px;
+  height: 10px;
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: 10%;
+  text-align: center;
+  vertical-align: middle;
+  color: #5a8f4f;
+}
+
+.Stext31 {
+  width: 50px;
+  height: 10px;
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  letter-spacing: 10%;
+  text-align: center;
+  vertical-align: middle;
+  color: #5a8f4f;
+}
+
+/* here we start fourth line div component9*/
+
+#heading4 {
+  width: 238px;
+  height: 24px;
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #7bf762;
+}
+
+#OptionPackage {
+  display: flex;
+  gap: 30px;
+}
+
+#div4 {
+  width: 160px;
+  height: 192px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#activediv4{
+  width: 160px;
+  height: 192px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px #7BF762; 
+}
+#div42 {
+  width: 160px;
+  height: 192px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#activediv42{
+  width: 160px;
+  height: 192px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px #7BF762; 
+}
+#div43 {
+  width: 160px;
+  height: 192px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#activediv43{
+  width: 160px;
+  height: 192px;
+  border: 1px solid #7bf762;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px #7BF762; 
+}
+
+.Stext4 {
+  width: 128px;
+  height: 15px;
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: 10%;
+  text-align: center;
+  vertical-align: bottom;
+  color: #5a8f4f;
+}
+
+.Stext41 {
+  width: 128px;
+  height: 15px;
+  /* top: 40px;
+left: 16px; */
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+  letter-spacing: 10%;
+  text-align: center;
+  vertical-align: bottom;
+  color: #5a8f4f;
+}
+
+.List1 ul li {
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #5a8f4f;
+}
+
+.List2 ul li {
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #5a8f4f;
+}
+
+.List3 ul li {
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #5a8f4f;
+}
+
+#css {
+  width: 304px;
+  height: 240px;
+  /* top: 176px;
+left: 856px; */
+  border-radius: 8px;
+  border-width: 1px;
+  background: #1c3c16;
+  border: 1px solid #7bf762;
+  position: absolute;
+}
+
+.flexneed {
+  display: flex;
+}
+
+.totalhead {
+  width: 121px;
+  height: 18px;
+  /* top: 192px;
+left: 872px; */
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 20%;
+  color: #7bf762;
+}
+
+.totalprice {
+  font-family: Roboto Mono;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 20%;
+  color: #ffffff;
+}
+
+
+  /* here we start to showing  selected effect */
+
+  /* .div1:hover{
+           box-shadow: 0px 0px 10px 0px #7BF762; 
+  }
+  .div2:hover{
+           box-shadow: 0px 0px 10px 0px #7BF762; 
+  }
+  .div3:hover{
+           box-shadow: 0px 0px 10px 0px #7BF762; 
+  }
+  .div4:hover{
+           box-shadow: 0px 0px 10px 0px #7BF762; 
+  } */
